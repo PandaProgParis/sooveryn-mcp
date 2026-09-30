@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "sooveryn": {
+      "type": "http",
+      "url": "https://mcp.sooveryn.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${SOOVERYN_API_KEY}"
+      }
+    }
+  }
+}
