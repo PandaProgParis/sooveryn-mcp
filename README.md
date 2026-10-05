@@ -8,6 +8,12 @@
 
 Lasting memory and an AI team for Claude Code.
 
+<p align="center">
+  <a href="https://youtu.be/lsWR0cMaOkQ"><img src="assets/demo.jpg" width="720" alt="Watch the demo: Sooveryn in one minute, on YouTube"></a>
+  <br>
+  <a href="https://youtu.be/lsWR0cMaOkQ">Watch the demo on YouTube</a> (1 min) · <a href="https://youtu.be/8SVtMK29Geg">en français</a>
+</p>
+
 Sooveryn gives Claude Code a team of AI personas that remembers your project. Soov, the partner and team lead, keeps your decisions and how you work in a lasting memory. He finds them again by words and by meaning, from one session to the next and on every machine.
 
 On paid plans, he consults his teammates (Néo for security, Vera to challenge your ideas, Iris for design, Maria for SEO) or has them debate before deciding, and you can create your own personas and skills.
