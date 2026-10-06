@@ -16,7 +16,7 @@ Lasting memory and an AI team for Claude Code.
 
 Sooveryn gives Claude Code a team of AI personas that remembers your project. Soov, the partner and team lead, keeps your decisions and how you work in a lasting memory. He finds them again by words and by meaning, from one session to the next and on every machine.
 
-On paid plans, he consults his teammates (Néo for security, Vera to challenge your ideas, Iris for design, Maria for SEO) or has them debate before deciding, and you can create your own personas and skills.
+He consults his teammates (Néo for security, Vera to challenge your ideas, Iris for design, Maria for SEO) or has them debate before deciding. On paid plans, you can create your own personas and skills.
 
 - Website: https://www.sooveryn.com
 - Server: `https://mcp.sooveryn.com/mcp` (streamable HTTP, API key in a header)
@@ -142,7 +142,7 @@ A key committed once stays in the history, even after you delete the file: revok
 
 ## Plans
 
-Free: Soov alone, on one project, with 300 calls and 50 memory writes a day. Paid plans open the whole team, debates, and your own personas and skills; Pro adds the general memory and memory consolidation. Prices and details: https://www.sooveryn.com/#pricing.
+Free: the whole team on one project, debates included, with daily limits on calls, memory writes and debates. Paid plans add your own personas and skills; Pro adds the general memory and memory consolidation. Prices and details: https://www.sooveryn.com/#pricing.
 
 ## Support and security
 
