@@ -25,14 +25,22 @@ He consults his teammates (Néo for security, Vera to challenge your ideas, Iris
 
 ## Get started
 
-1. Create a free account at https://www.sooveryn.com and confirm your email address.
-2. Create an API key on the API keys page (https://www.sooveryn.com/me/keys). One key per machine is best.
-3. Add the configuration of your client, below. Your key acts for your account and reads your memory: keep it out of anything that goes to git.
+1. Go to https://www.sooveryn.com/try and enter your email address. No password is needed.
+2. Confirm the code you receive by email, or click the link in the same email. Your account and your first API key are created at that moment.
+3. Connect your client. For Claude Code, the page shows one command to paste in your terminal, from your project's folder; for another client, use its configuration below. Your key acts for your account and reads your memory: keep it out of anything that goes to git.
 4. In a session, say **Soov Init**. The agent writes a `sooveryn.md` file at the root of the project, keeps it out of git, and loads it at every session through an `@sooveryn.md` line in `CLAUDE.md`. From then on, each session starts with Soov and his memory of the project.
+
+To sign back in later, enter the same address on the same page: the code signs you in. You can create more keys on the API keys page (https://www.sooveryn.com/me/keys); one key per machine is best.
 
 ### Claude Code and Orca
 
-Put your key in an environment variable named `SOOVERYN_API_KEY`, set where Claude Code starts (your shell profile, for example). Then add `.mcp.json` at the root of the project ([example](examples/.mcp.json)). Claude Code replaces `${SOOVERYN_API_KEY}` when it loads the file, so the file holds no secret:
+The quickest way is one command, run in your terminal from your project's folder. It saves the server and your key in your own Claude Code settings for that project, and writes nothing in the project:
+
+```bash
+claude mcp add --transport http sooveryn https://mcp.sooveryn.com/mcp --header "Authorization: Bearer <YOUR-API-KEY>"
+```
+
+To keep the configuration in the project instead, without a key in it: put your key in an environment variable named `SOOVERYN_API_KEY`, set where Claude Code starts (your shell profile, for example). Then add `.mcp.json` at the root of the project ([example](examples/.mcp.json)). Claude Code replaces `${SOOVERYN_API_KEY}` when it loads the file, so the file holds no secret:
 
 ```json
 {
